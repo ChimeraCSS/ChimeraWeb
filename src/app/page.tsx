@@ -2,31 +2,37 @@
 export default function Home() { 
   return (
     <>
-      <header className='flex items-center justify-between p-5'>
-        <div className="w-10">
-          <img src='favicon.ico'/>
+      <header className='bg-teal-600 flex items-center justify-between p-5'>
+        <div className="w-20 flex gap-2">
+          <a href="https://github.com/ChimeraCSS/ChimeraCSS">
+            <img alt="github logo" src="https://cdn-icons-png.flaticon.com/512/25/25231.png" />
+          </a>
+          <a href="https://www.npmjs.com/package/chimeracss">
+            <img alt="npm logo" src="https://icons.veryicon.com/png/o/miscellaneous/eva-fill/npm-3.png" />
+          </a>
         </div>
 
         {/*This style for nav should be included in Chimera */}
         <nav className='flex gap-4'>
-          <a>ChimeraCSS</a>
-          <a>Guide</a>
+          <a>Get Started</a>
           <a>Documentation</a>
-          <a>Open Source</a>
+          <a>Contribute</a>
           <a>Contact us</a>
         </nav>
       </header>
-      <hr/>
-      <main className="flex flex-col items-center">
+      <main className="bg-gray-100 flex flex-col items-center">
         <section className="px-6 w-full max-w-4xl">
           <div className='flex flex-col items-center mt-10'>
+            <div>
+              <img alt="ChimeraCSS logo" src="https://avatars.githubusercontent.com/u/141823796?s=96&v=4" />
+            </div>
               <h1>This is <a>ChimeraCSS</a></h1>
               <p>The classless CSS-framework for clean, modern and soft design.</p>
 
               {/*This style for buttons should be included in Chimera */} 
               <button className='mt-6'>Get started</button>  
           </div>
-
+          <hr className="my-10"/>
           <div>
             <h2>The principle of classless css</h2>
             <p>
