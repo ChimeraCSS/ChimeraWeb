@@ -13,7 +13,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="stylesheet" type="text/css" href="https://unpkg.com/chimeracss@1.0.0/chimera.css"/>
+        <link rel="stylesheet" type="text/css" href="https://unpkg.com/chimeracss@1.0.3/css/chimera.css"/>
         <link rel="icon" href="/favicon.ico" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="description" content={metadata.description} />
