@@ -11,3 +11,7 @@ header a:hover {
     color: #fff;
     text-decoration: underline;
 }
+
+header a:visited {
+    color: #fff;
+}
